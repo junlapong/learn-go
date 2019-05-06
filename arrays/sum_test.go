@@ -114,7 +114,7 @@ func TestSliceOperator(t *testing.T) {
 
 	fmt.Println(a)
 	fmt.Println(b)
-	// b จะกลายเป็นขอมูลแบบ slice เพราะเกิดจากการ slice array a
+	// b จะกลายเป็นข้อมูลแบบ slice เพราะเกิดจากการ slice array a
 	// จากตำแหน่งที่ 0 จนถึงตำแหน่งก่อนหน้า 3 ดังนั้นข้อมูลของ b คือ [1,2,3]
 
 	fmt.Println(a[1:5])

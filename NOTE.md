@@ -2,6 +2,26 @@
 ## Slice
 
 ```go
+a := [5]int{1, 2, 3, 4, 5}
+b := a[0:3]
+
+fmt.Println(a)
+fmt.Println(b)
+// b จะกลายเป็นข้อมูลแบบ slice เพราะเกิดจากการ slice array a
+// จากตำแหน่งที่ 0 จนถึงตำแหน่งก่อนหน้า 3 ดังนั้นข้อมูลของ b คือ [1,2,3]
+
+fmt.Println(a[1:5])
+fmt.Println(a[2:4])
+```
+
+```
+[1 2 3 4 5]
+[1 2 3]
+[2 3 4 5]
+[3 4]
+```
+
+```go
 var a []int
 a = append(a, 1)
 fmt.Printf("a: %v, len: %d, cap: %d\n", a, len(a), cap(a))
