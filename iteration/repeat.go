@@ -1,10 +1,8 @@
 package iteration
 
-const repeatCount = 5
-
 // Repeat character
-func Repeat(character string) (repeated string) {
-	for i := 0; i < repeatCount; i++ {
+func Repeat(character string, count int) (repeated string) {
+	for i := 0; i < count; i++ {
 		repeated += character
 	}
 	return
