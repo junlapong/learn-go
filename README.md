@@ -4,16 +4,32 @@
 
 - https://quii.gitbook.io/learn-go-with-tests/
 
-## Tools
-- [GoConvey, a yummy testing tool for gophers](http://goconvey.co/) | [Introduction to GoConvey](https://youtu.be/wlUKRxWEELU) on YouTube
-```
-go get github.com/smartystreets/goconvey
-$GOPATH/bin/goconvey
-```
-- [Ginkgo is a BDD-style Go testing framework ](https://onsi.github.io/ginkgo/)
+## Todo
+
+- [x] Install Go
+- [x] Hello, World
+- [x] Integers
+- [x] Iteration
+- [x] Arrays and slices
+- [ ] Structs, methods & interfaces
+- [ ] Pointers & errors
+- [ ] Maps
+- [ ] Dependency Injection
+- [ ] Mocking
+- [ ] Concurrency
+- [ ] Select
+- [ ] Reflection
+- [ ] Sync
+- [ ] Context
 
 ## Notes
-### somkiat.cc
+
+### IPorsut
+ - [Golang array, slice](https://iporsut.blogspot.com/2014/09/golang-array-slice.html)
+ - [Golang string, bytes, runes](https://iporsut.blogspot.com/2014/09/golang-string-bytes-runes.html)
+ - [more ...](https://iporsut.blogspot.com/search/label/Golang)
+
+### somkiat
 - http://www.somkiat.cc/learn-golang-01
 - http://www.somkiat.cc/learn-golang-02
 - http://www.somkiat.cc/learn-golang-03
@@ -38,4 +54,13 @@ $GOPATH/bin/goconvey
 ```
 go get github.com/codegangsta/gin
 gin run main.go
+```
+
+## Tools
+
+- [Ginkgo is a BDD-style Go testing framework ](https://onsi.github.io/ginkgo/)
+- [GoConvey, a yummy testing tool for gophers](http://goconvey.co/) | [Introduction to GoConvey](https://youtu.be/wlUKRxWEELU) on YouTube
+```
+go get github.com/smartystreets/goconvey
+$GOPATH/bin/goconvey
 ```

@@ -29,6 +29,10 @@ func greetingPrefix(language string) (prefix string) {
 	return prefix
 }
 
+func init() {
+	fmt.Println("Init Hello")
+}
+
 func main() {
 	fmt.Println(Hello("Jun", ""))
 }
