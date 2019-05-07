@@ -65,6 +65,15 @@ go get github.com/smartystreets/goconvey
 $GOPATH/bin/goconvey
 ```
 
+
+### Check Test Coverage
+
+```
+go test -cover -coverprofile=cover.out
+go tool cover -html=cover.out -o coverage.html
+open coverage.html
+```
+
 ## More
 - [ ] การใช้ flag package เพื่อรับ parameter ของ cli
 - [ ] xxx
