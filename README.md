@@ -64,3 +64,7 @@ gin run main.go
 go get github.com/smartystreets/goconvey
 $GOPATH/bin/goconvey
 ```
+
+## More
+- [ ] การใช้ flag package เพื่อรับ parameter ของ cli
+- [ ] xxx
