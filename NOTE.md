@@ -1,5 +1,77 @@
 
+# Notes
+
+## Array
+
+Array is a compound object with fix length of object of the same type.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    //This defines a variable that holds 4 integers
+    var a [4]int = [4]int{1,2,3,3}
+    //go array index value can be mutated unlike rust
+    a[2] = 10
+    b := [5]int{1,2,3,4,5}
+    fmt.Println(a)
+    fmt.Println(b)
+    //If you try to assign array of length 5 to a, it errors
+}
+```
+
 ## Slice
+
+A slice is a data type that is backed by an array but with mutable size. It consists of a type and size basically pointing to a specific part of array, length of the array that the segment has and maximum capability of the underlying array starting from the the slice head.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    arr := [4]int{1,2,3,4}
+    s := arr[1:] //The defaults to arr[1:4] with last one excluded
+    //You can also make slice using `make`
+    m := make([]int,1,2) //The creates a slice with length 1 but capacity 2.
+    fmt.Println(m)
+    //Ok, lets just copy one slice to another. This only copies one element because of m length
+    copy(m, arr[1:])
+    fmt.Println(m)
+    fmt.Println(s)
+}
+```
+
+You can define a slice literal or go the route of using make function specifying the length as well as capacity as we have seen above.
+
+## Null Slice
+
+When you define a slice without setting a value, what you have is a null slice. There is no underlying array that is backing the slice. One thing that stands out with null slice is they can act like zero length slice which means you can treat them like a slice that you defined with zero length.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+   //This slice defined below will be treated like an empty slice of type int
+   var s []int
+   fmt.Println(s)
+   //Lets add some int to this null slice; Null because it does not have underlying array
+   s = append(s,1,2,3,4)
+   fmt.Println(s)
+}
+```
+
+```
+[]
+[1 2 3 4]
+```
+You have to be careful with slice as they can hold large objects in memory hostage even if they refer to only a small part of the data.
+
+## Slice Operations
 
 ```go
 a := [5]int{1, 2, 3, 4, 5}

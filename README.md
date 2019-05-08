@@ -24,10 +24,7 @@
 
 ## Notes
 
-### IPorsut
- - [Golang array, slice](https://iporsut.blogspot.com/2014/09/golang-array-slice.html)
- - [Golang string, bytes, runes](https://iporsut.blogspot.com/2014/09/golang-string-bytes-runes.html)
- - [more ...](https://iporsut.blogspot.com/search/label/Golang)
+- [Go cheatsheet](https://devhints.io/go)
 
 ### somkiat
 - http://www.somkiat.cc/learn-golang-01
@@ -39,7 +36,13 @@
 - [สรุปเรื่องของ Principle 3 ข้อของภาษา Go](http://www.somkiat.cc/go-principles/)
 - [ว่าด้วยเรื่องการจัดการ Error ถ้ามันเยอะก็ลดสิ](http://www.somkiat.cc/go-error-handling/)
 - [* สรุปเรื่องของการพัฒนา Testable application ด้วยภาษา Go](http://www.somkiat.cc/testable-app-with-golang/)
-- [more ...](http://www.somkiat.cc/tag/golang/)
+- more... [go](http://www.somkiat.cc/tag/go/) | [golang](http://www.somkiat.cc/tag/golang/)
+
+### IPorsut
+ - [Golang array, slice](https://iporsut.blogspot.com/2014/09/golang-array-slice.html)
+ - [Golang string, bytes, runes](https://iporsut.blogspot.com/2014/09/golang-string-bytes-runes.html)
+ - [more...](https://iporsut.blogspot.com/search/label/Golang)
+
 
 ### superhardcode
 - [ภาษา Golang มีอะไรน่าสนใจ](https://superhardcode.wordpress.com/2015/07/14/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-golang-%E0%B8%A1%E0%B8%B5%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88/)
