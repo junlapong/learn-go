@@ -46,7 +46,7 @@ func main() {
 
 You can define a slice literal or go the route of using make function specifying the length as well as capacity as we have seen above.
 
-## Null Slice
+### Null Slice
 
 When you define a slice without setting a value, what you have is a null slice. There is no underlying array that is backing the slice. One thing that stands out with null slice is they can act like zero length slice which means you can treat them like a slice that you defined with zero length.
 
@@ -71,7 +71,7 @@ func main() {
 ```
 You have to be careful with slice as they can hold large objects in memory hostage even if they refer to only a small part of the data.
 
-## Slice Operations
+### Slice Operations
 
 ```go
 a := [5]int{1, 2, 3, 4, 5}
