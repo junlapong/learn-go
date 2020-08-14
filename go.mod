@@ -1,3 +1,3 @@
 module learn-go
 
-go 1.12
+go 1.14
